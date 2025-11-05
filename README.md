@@ -38,24 +38,6 @@ Both packages target the AdventureWorks 2022 Data Warehouse (AdvWrks2022_DWH), p
 - **Dynamic Command Generation**: Runtime construction of BCP and SqlCmd parameters
 - **Variable Expressions**: Multi-line expressions with string concatenation and conditional logic
 
-### Command-Line Database Tools
-
-- **BCP (Bulk Copy Program) Integration**:
-  - Native SQL Server bulk data mover
-  - Character mode output (`-c` flag)
-  - Custom delimiter handling (`-t,` for comma-separated values)
-  - Row terminator configuration (`-r\n` for newline)
-  - Authentication and encryption options
-  - Code page specification (UTF-8 via `-C 65001`)
-
-- **SqlCmd Command-Line Utility**:
-  - T-SQL query execution from command line
-  - Custom delimiters (`-s` separator flag)
-  - Output redirection to file (`-o` parameter)
-  - Column width control (`-w` for wide output)
-  - Scripting variables and expressions
-  - Error handling and query results formatting
-
 ### Data Extraction Patterns
 
 - **Bulk Export Operations**: High-performance data extraction to flat files
